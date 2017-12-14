@@ -1,0 +1,12 @@
+.list {
+  column-count: 3;
+}
+.list .container {
+  /*display: inline-block;*/
+  break-inside: avoid-column;
+  /* to do: add alternatives */
+}
+.initial {
+  font-size:25px;
+  text-decoration:none;
+}
